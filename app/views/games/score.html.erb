@@ -1,0 +1,19 @@
+<div class="page-center">
+<h1>Games#score</h1>
+<p>Find me in app/views/games/score.html.erb</p>
+
+<ul>
+<% @original.each do |o|%>
+  <li> <%= o %> </li>
+<% end %>
+</ul>
+
+<ul>
+<% @answer.each do |a|%>
+  <li> <%= a %> </li>
+<% end %>
+</ul>
+
+<p><%= @sentence %></p>
+
+</div>
